@@ -77,6 +77,11 @@ h1 .logo {
   width: calc(var(--size-box) / 2.2);
 }
 
+h1 .title-sub {
+  display: block;
+  margin-top: calc(var(--size-header) * 1.5);
+}
+
 h2 {
   align-items: center;
   display: flex;
@@ -231,6 +236,47 @@ h2 {
   background-color: var(--bgcolor-profile);
 }
 
+/* Rule */
+
+.rule {
+  background-color: #fff;
+  border-radius: var(--size-radius);
+  color: #000;
+  padding: calc(var(--size-base));
+  width: calc(var(--size-box) - var(--size-double));
+}
+
+.rule h2,
+.rule li,
+.rule p {
+  justify-content: left;
+  list-style-type: disc;
+  text-align: left;
+}
+
+.rule h2 {
+  font-size: calc(var(--size-base) * 1.5);
+  line-height: calc(var(--size-base) * 2);
+  margin: var(--size-base) 0;
+}
+
+.rule ul {
+  padding-left: calc(var(--size-base) * 1.2);
+}
+
+.rule li {
+  margin: calc(var(--size-base) * 0.3);
+}
+
+.rule li ul li {
+  list-style-type: circle;
+}
+
+.rule a {
+  color: var(--bgcolor-profile);
+  text-decoration: underline;
+}
+
 /* Contact */
 
 .contact a {
@@ -251,6 +297,22 @@ h2 {
 
 /* Footer */
 
-address {
+footer {
+  font-size: calc(var(--size-base) * 0.8);
   margin: var(--size-double) 0;
+}
+
+footer ul,
+footer li,
+footer address {
+  display: inline;
+}
+
+footer li::after {
+  content: "｜";
+}
+
+footer a:hover,
+footer a:active {
+  color: var(--bgcolor-profile);
 }

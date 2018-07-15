@@ -50,6 +50,11 @@ module.exports = {
   css: [
     '~/assets/css/default.scss',
     '~/assets/css/icon.css'
+  ],
+  modules: [
+    [
+      '@nuxtjs/google-analytics', { id: 'UA-1744748-12' }
+    ]
   ]
 };
 

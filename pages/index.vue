@@ -36,18 +36,32 @@
           <dt>相川昌裕（aikawame）</dt>
           <dd>社寺と鉄道を愛でる中二病エンジニア</dd>
         </dl>
-        <sns-list />
+        <ul class="sns-list">
+          <sns v-for="sns in snss" :key="sns.id" :sns="sns" />
+        </ul>
       </section>
     </section>
   </article>
 </template>
 
 <script>
-import SnsList from "~/components/SnsList";
+import Sns from "~/components/Sns";
 
 export default {
   components: {
-    SnsList
+    Sns
+  },
+  data() {
+    return {
+      snss: [
+        { id: 'hateblo',  name: 'Blog',     url: 'https://aikawame.hateblo.jp/' },
+        { id: 'qiita',    name: 'Qiita',    url: 'https://qiita.com/aikawame' },
+        { id: 'github',   name: 'GitHub',   url: 'https://github.com/aikawame' },
+        { id: 'twitter',  name: 'Twitter',  url: 'https://twitter.com/aikawame' },
+        { id: 'facebook', name: 'Facebook', url: 'https://facebook.com/aikawa.masahiro' },
+        { id: 'wantedly', name: 'Wantedly', url: 'https://www.wantedly.com/users/17860990' }
+      ]
+    };
   }
 }
 </script>
@@ -121,44 +135,5 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
-
-  li {
-    font-size: 1.2rem;
-    margin: 0.5rem 0;
-    text-align: center;
-
-    &:hover {
-      color: #20b446 !important;
-    }
-
-    .sns-icon {
-      align-items: center;
-      background-color: #00553e;
-      border-radius: 50%;
-      display: flex;
-      justify-content: center;
-      height: 25vw;
-      width: 25vw;
-
-      @include from($tablet) {
-        height: 155px;
-        width: 155px;
-      }
-
-      i {
-        color: #fff;
-        font-size: 13vw;
-
-        @include from ($tablet) {
-          font-size: 80px;
-        }
-      }
-
-      &:hover,
-      &:active {
-        background-color: #53984d;
-      }
-    }
-  }
 }
 </style>

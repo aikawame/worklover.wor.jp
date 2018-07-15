@@ -31,6 +31,7 @@ $addColors: (
 
 $colors: map-merge($colors, $addColors);
 
+$variable-columns: false;
 @import "~bulma/bulma";
 
 /**
@@ -82,9 +83,31 @@ address {
 }
 
 .logo-worklover {
-  width: 80px;
+  height: 1.75rem;
 }
 
 /**
  * ワクラバ本体共通
  */
+.hero {
+  background: linear-gradient(#53984d, #00553e);
+}
+
+.article {
+  ul {
+    padding-left: 1rem;
+
+    li {
+      list-style-type: square;
+      margin: 0.3rem;
+
+      li {
+        list-style-type: circle;
+      }
+    }
+  }
+}
+
+.preamble {
+  margin-bottom: 1.5em;
+}

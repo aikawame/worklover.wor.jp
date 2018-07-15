@@ -32,6 +32,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    extractCSS: true,
     /*
     ** Run ESLint on save
     */
@@ -47,7 +48,8 @@ module.exports = {
     }
   },
   css: [
-    '~/assets/css/default.scss'
+    '~/assets/css/default.scss',
+    '~/assets/css/icon.css'
   ]
 };
 

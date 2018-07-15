@@ -27,8 +27,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "~/assets/css/default.scss";
-
 .sns-list {
   li {
     font-size: 1.2rem;
@@ -52,7 +50,7 @@ export default {
       height: 25vw;
       width: 25vw;
 
-      @include from($tablet) {
+      @media screen and (min-width: 769px) {
         height: 155px;
         width: 155px;
       }
@@ -61,7 +59,7 @@ export default {
         color: #fff;
         font-size: 13vw;
 
-        @include from ($tablet) {
+        @media screen and (min-width: 769px) {
           font-size: 80px;
         }
       }

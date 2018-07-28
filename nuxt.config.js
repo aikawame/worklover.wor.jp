@@ -51,11 +51,15 @@ module.exports = {
     '~/assets/css/default.scss',
     '~/assets/css/icon.css'
   ],
+  generate: {
+    fallback: true
+  },
   modules: [
-    [
-      '@nuxtjs/google-analytics', { id: 'UA-1744748-12' },
-      '@nuxtjs/sitemap'
-    ]
-  ]
+    ['@nuxtjs/google-analytics', { id: 'UA-1744748-12' }],
+    '@nuxtjs/sitemap'
+  ],
+  sitemap: {
+    hostname: 'https://worklover.wor.jp',
+    generate: true
+  }
 };
-

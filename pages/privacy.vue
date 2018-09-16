@@ -76,7 +76,7 @@
           <h2 class="title is-4">個人情報の閲覧・編集・削除</h2>
           <ul>
             <li>
-              利用者が自身の問い合わせ個人情報を閲覧・編集・削除するには、<a href="https://docs.google.com/forms/d/e/1FAIpQLSdcdNlZSANueBFqjTZQzVrQsxoqalHm8c_Jdg6K3lBrieu9DQ/viewform?usp=sf_link">問い合わせフォーム</a>にその旨を記載の上ご連絡ください。
+              利用者が自身の問い合わせ個人情報を閲覧・編集・削除するには、<a href="/inquiry">問い合わせフォーム</a>にその旨を記載の上ご連絡ください。
               電子メールでの本人確認が取れ次第、必要な手続きを行います。
             </li>
             <li>
@@ -169,6 +169,12 @@
               当団体は、本サービスを提供するため、以下のクラウドサービスを利用しています。
               <ul>
                 <li>
+                  <a href="https://policies.google.com/privacy">reCAPTCHA</a>：お問い合わせ機能の提供のため。
+                </li>
+                <li>
+                  <a href="https://aws.amazon.com/jp/privacy/">AWS Lambda / API Gateway / SES</a>：お問い合わせ機能の提供のため。
+                </li>
+                <li>
                   <a href="https://aws.amazon.com/jp/privacy/">Amazon S3</a>：RSSフィードの保管のため。
                 </li>
                 <li>
@@ -176,9 +182,6 @@
                 </li>
                 <li>
                   <a href="https://www.hatena.ne.jp/rule/privacypolicy">はてなブログ</a>：ブログの提供のため。
-                </li>
-                <li>
-                  <a href="https://policies.google.com/privacy">Google フォーム</a>：問い合わせ機能の提供のため。
                 </li>
                 <li>
                   <a href="https://help.github.com/articles/github-privacy-statement/">GitHub Pages</a>：上記以外のウェブページの提供のため。
@@ -219,11 +222,11 @@
           <h2 class="title is-4">個人情報に関する意見・苦情・異議申立</h2>
           <ul>
             <li>
-              個人情報に関する意見・苦情・異議申立、およびご自身の登録個人情報の開示を請求される際には、<a href="https://docs.google.com/forms/d/e/1FAIpQLSdcdNlZSANueBFqjTZQzVrQsxoqalHm8c_Jdg6K3lBrieu9DQ/viewform?usp=sf_link">問い合わせフォーム</a>をご利用ください。
+              個人情報に関する意見・苦情・異議申立、およびご自身の登録個人情報の開示を請求される際には、<a href="/inquiry">問い合わせフォーム</a>をご利用ください。
               内容を確認後、折り返し電子メールでのご連絡をした後、適切な処理に努めます。
             </li>
             <li>
-              EU加盟国各国に居住しGDPRの適用対象である方が、GDPR上の権利を行使する際は、上記と同様に<a href="https://docs.google.com/forms/d/e/1FAIpQLSdcdNlZSANueBFqjTZQzVrQsxoqalHm8c_Jdg6K3lBrieu9DQ/viewform?usp=sf_link">問い合わせフォーム</a>をご利用ください。
+              EU加盟国各国に居住しGDPRの適用対象である方が、GDPR上の権利を行使する際は、上記と同様に<a href="/inquiry">問い合わせフォーム</a>をご利用ください。
               また、適切に処理がなされなかった場合は、監督当局に対して不服を申し立てることができます。
             </li>
           </ul>

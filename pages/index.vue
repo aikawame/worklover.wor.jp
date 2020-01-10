@@ -54,11 +54,9 @@ export default {
   data() {
     return {
       snss: [
-        { id: 'hateblo',  name: 'Blog',     url: 'https://aikawame.hateblo.jp/' },
-        { id: 'qiita',    name: 'Qiita',    url: 'https://qiita.com/aikawame' },
         { id: 'github',   name: 'GitHub',   url: 'https://github.com/aikawame' },
+        { id: 'hateblo',  name: 'Blog',     url: 'https://aikawame.hateblo.jp/' },
         { id: 'twitter',  name: 'Twitter',  url: 'https://twitter.com/aikawame' },
-        { id: 'facebook', name: 'Facebook', url: 'https://facebook.com/aikawa.masahiro' },
         { id: 'wantedly', name: 'Wantedly', url: 'https://www.wantedly.com/users/17860990' }
       ]
     };

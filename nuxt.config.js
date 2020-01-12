@@ -59,7 +59,6 @@ module.exports = {
     '@nuxtjs/sitemap'
   ],
   sitemap: {
-    hostname: 'https://worklover.wor.jp',
-    generate: true
+    hostname: 'https://worklover.wor.jp'
   }
 };

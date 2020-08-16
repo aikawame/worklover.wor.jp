@@ -53,7 +53,7 @@
             </p>
             <p class="buttons-facebook has-text-right-tablet">
               <a class="button is-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://worklover.wor.jp/" target="blank">
-                <i class="icon-facebook-f" aria-hidden="true"></i>&nbsp;シェア
+                <i class="icon-facebook" aria-hidden="true"></i>&nbsp;シェア
               </a>
               <a class="button is-hateb" href="https://b.hatena.ne.jp/entry/https://worklover.wor.jp/" target="blank">
                 <i class="icon-hateb" aria-hidden="true"></i>&nbsp;ブックマーク

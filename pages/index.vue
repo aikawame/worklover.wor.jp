@@ -54,10 +54,12 @@ export default {
   data() {
     return {
       snss: [
-        { id: 'github',   name: 'GitHub',   url: 'https://github.com/aikawame' },
-        { id: 'hateblo',  name: 'Blog',     url: 'https://aikawame.hateblo.jp/' },
-        { id: 'twitter',  name: 'Twitter',  url: 'https://twitter.com/aikawame' },
-        { id: 'wantedly', name: 'Wantedly', url: 'https://www.wantedly.com/users/17860990' }
+        { id: 'github',    name: 'GitHub',    url: 'https://github.com/aikawame' },
+        { id: 'hateblo',   name: 'Blog',      url: 'https://aikawame.hateblo.jp/' },
+        { id: 'wantedly',  name: 'Wantedly',  url: 'https://www.wantedly.com/users/17860990' },
+        { id: 'twitter',   name: 'Twitter',   url: 'https://twitter.com/aikawame' },
+        { id: 'instagram', name: 'Instagram', url: 'https://instagram.com/aikawame/' },
+        { id: 'facebook',  name: 'Facebook',  url: 'https://facebook.com/aikawa.masahiro' }
       ]
     };
   }

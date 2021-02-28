@@ -60,5 +60,6 @@ module.exports = {
   ],
   sitemap: {
     hostname: 'https://worklover.wor.jp'
-  }
+  },
+  target: 'static'
 };

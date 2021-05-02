@@ -47,20 +47,20 @@ export default {
       border-radius: 50%;
       display: flex;
       justify-content: center;
-      height: 25vw;
-      width: 25vw;
+      height: 20vw;
+      width: 20vw;
 
       @media screen and (min-width: 769px) {
-        height: 155px;
-        width: 155px;
+        height: 120px;
+        width: 120px;
       }
 
       i {
         color: #fff;
-        font-size: 13vw;
+        font-size: 12vw;
 
         @media screen and (min-width: 769px) {
-          font-size: 80px;
+          font-size: 72px;
         }
       }
     }
